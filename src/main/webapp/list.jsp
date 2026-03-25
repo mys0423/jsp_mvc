@@ -24,7 +24,7 @@
 		<th>상품번호</th>
 		<th>상품명</th>
 		<th>상품가격</th>
-		<th>상품재고</th>
+		<th>상품재고</th>	
 	</tr>
 	<%
 		for(ProductVO product : products) {

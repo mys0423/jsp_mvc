@@ -8,8 +8,8 @@
    
    <typeAliases>
    	<typeAlias type="com.app.vo.ProductVO" alias="ProductVO" />
+   	<typeAlias type="com.app.vo.PostVO" alias="PostVO" />
    </typeAliases> 
-   
    
    <environments default="oracle">
        <environment id="oracle">
@@ -25,6 +25,7 @@
     
 	<mappers>
     	<mapper resource="com/app/mybatis/mapper/productMapper.xml" />
+    	<mapper resource="com/app/mybatis/mapper/postMapper.xml" />
     </mappers>
     
  </configuration>
